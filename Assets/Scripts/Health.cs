@@ -9,7 +9,7 @@ public class Health : MonoBehaviour
     public Slider easeHealthSlider;
     public float maxHealth = 100f;
     public float health;
-    private float lerpSpeed = 0.05f;
+    private float lerpSpeed = 0.0095f;
 
     // Start is called before the first frame update
     void Start()
