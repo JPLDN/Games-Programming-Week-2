@@ -35,14 +35,6 @@ public class Health : MonoBehaviour
     void takeDamage(float damage)
     {
         health -= damage;
-        if (health < 0) health = 0;
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Spike"))
-        {
-            takeDamage(10f);
-        }
-    }
 }
