@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -25,11 +26,6 @@ public class Health : MonoBehaviour
             healthSlider.value = health;
         }
 
-        if (Input.GetKeyDown(KeyCode.Mouse0))
-        {
-            takeDamage(10);
-        }
-
         if (healthSlider.value != easeHealthSlider.value)
         {
             easeHealthSlider.value = Mathf.Lerp(easeHealthSlider.value, health, lerpSpeed);
@@ -39,5 +35,14 @@ public class Health : MonoBehaviour
     void takeDamage(float damage)
     {
         health -= damage;
+        if (health < 0) health = 0;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Spike"))
+        {
+            takeDamage(10f);
+        }
     }
 }
