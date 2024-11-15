@@ -30,18 +30,15 @@ public class Health : MonoBehaviour
         {
             easeHealthSlider.value = Mathf.Lerp(easeHealthSlider.value, health, lerpSpeed);
         }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            takeDamage(10);
+        }
     }
 
     void takeDamage(float damage)
     {
         health -= damage;
-
-        if (health < 0f)
-        {
-            health = 0f;
-        }
     }
-
-  
-
 }
