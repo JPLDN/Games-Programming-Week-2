@@ -35,6 +35,13 @@ public class Health : MonoBehaviour
     void takeDamage(float damage)
     {
         health -= damage;
+
+        if (health < 0f)
+        {
+            health = 0f;
+        }
     }
+
+  
 
 }
