@@ -22,6 +22,7 @@ public class PlayerCollisionDamage : MonoBehaviour
         
     }
 
+    /*
     // This method is called when the player collides with another object
     private void OnCollisionEnter(Collision collision)
     {
@@ -32,8 +33,10 @@ public class PlayerCollisionDamage : MonoBehaviour
             healthSystem.takeDamage(collisionDamage);
         }
     }
+    */
 
     // Alternatively, if you are using triggers instead of colliders, use OnTriggerEnter
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Spike"))
