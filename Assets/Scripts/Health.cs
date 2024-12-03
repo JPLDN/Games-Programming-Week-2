@@ -40,7 +40,7 @@ public class Health : MonoBehaviour
         {
             health = 0f;
             Die();
-        }
+        }   
     }
 
     private void Die()
