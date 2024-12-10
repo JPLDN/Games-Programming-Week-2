@@ -11,6 +11,7 @@ public class Health : MonoBehaviour
     public float maxHealth = 100f;
     public float health;
     private float lerpSpeed = 0.0095f;
+    private float invulnerability = 0f;
 
     // Start is called before the first frame update
     void Start()
@@ -30,11 +31,20 @@ public class Health : MonoBehaviour
         {
             easeHealthSlider.value = Mathf.Lerp(easeHealthSlider.value, health, lerpSpeed);
         }
+
+        invulnerability -= Time.deltaTime;
     }
 
     public void takeDamage(float damage)
     {
+        if (invulnerability > 0)
+        {
+            return;
+        }
+
         health -= damage;
+
+        invulnerability = 1f;
 
         if (health < 0f)
         {

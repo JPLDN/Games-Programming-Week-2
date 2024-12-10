@@ -1,3 +1,4 @@
+using Palmmedia.ReportGenerator.Core.Parser.Analysis;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -37,11 +38,13 @@ public class PlayerCollisionDamage : MonoBehaviour
 
     // Alternatively, if you are using triggers instead of colliders, use OnTriggerEnter
 
-    private void OnTriggerEnter(Collider other)
+    private void OnControllerColliderHit(ControllerColliderHit hit)
     {
-        if (other.CompareTag("Spike"))
+        if (hit.collider.CompareTag("Spike"))
         {
             healthSystem.takeDamage(collisionDamage);
+
+
         }
     }
 }
