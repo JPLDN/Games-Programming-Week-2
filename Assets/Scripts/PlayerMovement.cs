@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -20,6 +21,14 @@ public class PlayerMovement : MonoBehaviour
     private CharacterController characterController;
 
     private bool canMove = true;
+
+    public void Respawn()
+    {
+        Debug.Log("Respawn");
+        characterController.enabled = false;
+        transform.position = new Vector3(0f, 1f, 0f);
+        characterController.enabled = true;
+    }
 
     void Start()
     {

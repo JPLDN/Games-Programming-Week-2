@@ -50,11 +50,15 @@ public class Health : MonoBehaviour
         {
             health = 0f;
             Die();
-        }   
+        }
     }
 
     private void Die()
     {
         Debug.Log("You Died!");
+        PlayerMovement playerMovement = FindFirstObjectByType<PlayerMovement>();
+        playerMovement.Respawn();
+
+        health = 100;
     }
 }
