@@ -18,4 +18,6 @@ public class FirstPersonCamera : MonoBehaviour
 
     bool lockedCursor = true;
 ```
-
+The "public Transform player;" variable is to reference the player.
+The "public float mouseSensitivity = 2f;" is to provide a value to the mouseSensitity, the value determines how strong the Mouse Sensitivity is.
+The "float cameraVerticalRotation = 0;" is to simply make sure the camera is in its default position, straight, when pressing play in Unity.
