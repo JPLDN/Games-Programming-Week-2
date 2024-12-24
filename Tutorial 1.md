@@ -7,3 +7,15 @@
 ### Now it's time to code, if you haven't already, Click on your assets folder, right click inside the folder, click Create -> Folder.
 
 1. Create a C# Script inside the Script folder, by opening the Script folder, right clicking inside the folder, click Create -> C# Script
+2. Open the script by double clicking and Visual Studios should open up.
+3. We're first going to start off with Variables, so create some space above the void Start() statement by click above it and pressing Spacebar.
+```.cs
+public class FirstPersonCamera : MonoBehaviour
+{
+    public Transform player;
+    public float mouseSensitivity = 2f;
+    float cameraVerticalRotation = 0;
+
+    bool lockedCursor = true;
+```
+
