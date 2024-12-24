@@ -31,3 +31,4 @@ void Update()
     float inputY = Input.GetAxis("Mouse Y") * mouseSensitivity;
 ```
 This collects the Mouse Inputs, allowing you to move the camera with your mouse through both the X and Y axis. 
+The "* mouseSensitivity* part is so that the inputs of your X and Y axis mouse movements have a value, and we previously put the value as 2, which determines how strong the mouse sensitivity is when moving your mouse.
