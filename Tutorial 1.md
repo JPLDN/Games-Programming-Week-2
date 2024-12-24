@@ -3,4 +3,7 @@
 
 1. Create a scene in Unity, and then create a Game Object that will be used as your player and attach the Main Camera of the scene into the Player, becoming a child object to the Player Object.
 2. Reset the Camera's Transform position, then change the Y axis Transform to 1. X and Z axis Transform Positions should be on 0.
-3. 
+
+### Now it's time to code, if you haven't already, Click on your assets folder, right click inside the folder, click Create -> Folder.
+
+1. Create a C# Script inside the Script folder, by opening the Script folder, right clicking inside the folder, click Create -> C# Script
