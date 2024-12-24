@@ -32,3 +32,10 @@ void Update()
 ```
 This collects the Mouse Inputs, allowing you to move the camera with your mouse through both the X and Y axis. 
 The "* mouseSensitivity* part is so that the inputs of your X and Y axis mouse movements have a value, and we previously put the value as 2, which determines how strong the mouse sensitivity is when moving your mouse.
+
+5. We're now going to write out another line, which will have the Camera rotate in its local X Axis. This means that the camera will move vertically, up and down.
+```.cs
+cameraVerticalRotation -= inputY;
+cameraVerticalRotation = Mathf.Clamp(cameraVerticalRotation, -90f, 90f);
+transform.localEulerAngles = Vector3.right * cameraVerticalRotation;
+```
