@@ -21,3 +21,13 @@ public class FirstPersonCamera : MonoBehaviour
 The "public Transform player;" variable is to reference the player.
 The "public float mouseSensitivity = 2f;" is to provide a value to the mouseSensitity, the value determines how strong the Mouse Sensitivity is.
 The "float cameraVerticalRotation = 0;" is to simply make sure the camera is in its default position, straight, when pressing play in Unity.
+
+4. Next, we go down to void Update(), and then we're going to collect the mouse input. 
+```.cs
+void Update()
+{
+  
+    float inputX = Input.GetAxis("Mouse X") * mouseSensitivity;
+    float inputY = Input.GetAxis("Mouse Y") * mouseSensitivity;
+```
+This collects the Mouse Inputs, allowing you to move the camera with your mouse through both the X and Y axis. 
