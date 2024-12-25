@@ -6,7 +6,7 @@
 
 ### Now it's time to code, if you haven't already, Click on your assets folder, right click inside the folder, click Create -> Folder.
 
-1. Create a C# Script inside the Script folder, by opening the Script folder, right clicking inside the folder, click Create -> C# Script
+1. Create a C# Script inside the Script folder, by opening the Script folder, right clicking inside the folder, click Create -> C# Script and we'll call it FirstPersonCamera.
 2. Open the script by double clicking and Visual Studios should open up.
 3. We're first going to start off with Variables, so create some space above the void Start() statement by click above it and pressing Spacebar.
 ```.cs
@@ -51,3 +51,8 @@ Then back on Unity, click on the Main Camera which should be inside your player 
 
 Then where it says Player, click and hold your player gameobject and drag it into the Player section inside the First Personn Camera script component.
 
+6. Now we come back into the First Person Camera Script and underneath the Vertical Rotation line, we're going to work on the horizontal rotation. So what we type is:
+```.cs
+player.Rotate(Vector3.up * inputX);
+```
+This will make it so the camera rotates horizontally when the player moves the mouse horizontally.
