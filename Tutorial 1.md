@@ -39,5 +39,5 @@ cameraVerticalRotation -= inputY;
 cameraVerticalRotation = Mathf.Clamp(cameraVerticalRotation, -90f, 90f);
 transform.localEulerAngles = Vector3.right * cameraVerticalRotation;
 ```
-We first have to make sure that this line is specific to vertical movements, so we started off with making the Camera's vertical rotation to be inputY.
+We first have to make sure that this line is specific to vertical movements, so we started off with making the Camera's vertical rotation to be inputY. We put a negative for the input because the mouse moving up is a positive value, but for the camera to move up, it needs to be a negative value.
 We then put a limit to how far we go look up and down so the camera doesn't go beyond a certain point so we place a 90 degree limit to both looking up and down, hence the "-90f, 90f" part of the statement.
