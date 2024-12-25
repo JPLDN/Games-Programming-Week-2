@@ -56,3 +56,24 @@ Then where it says Player, click and hold your player gameobject and drag it int
 player.Rotate(Vector3.up * inputX);
 ```
 This will make it so the camera rotates horizontally when the player moves the mouse horizontally.
+
+### That's it for the First Persona Camera, however, you'll notice that the mouse is still visible when you press play in Unity, so let's remove that.
+
+7. We go back into the First Person Camera script, and we're going to add a new varibale:
+```.cs
+ bool lockedCursor = true;
+
+ void Start()
+ {
+     Cursor.visible = false;
+     Cursor.lockState = CursorLockMode.Locked;
+ }
+```
+
+This will help to hide the cursor and lock it so that when you click play and just click anywhere, the cursor disappears and is locked, but you are still able to move the mouse around and control the First Person Camera.
+
+This is how it should look and function in the end.
+
+
+https://github.com/user-attachments/assets/fbafd025-5b44-4d84-8e9e-9bab48993826
+
