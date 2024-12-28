@@ -40,7 +40,7 @@ void Start()
     Cursor.visible = false;
 }
 ```
-7. Now we go into void Update and begin coding there. 
+### Now we begin the actual coding for the movement in void Update() part.
 ```.cs
     void Update()
     {
