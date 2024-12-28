@@ -91,3 +91,10 @@ Firstly we'll talk about the movement aspect of the script. Our Forward/Right mo
 Camera/Look Movement: Mouse input is what's used to control the camera's rotation, both vertical and horizontally. The vertical rotation is clamped using Mathf.Clamp() to avoid the camera flipping, constrained by lookXLimit, so the player can't go beyond 90 degrees when looking up and down. The horizontal rotation rotates the player's body left and right based on mouse movement, so however you move your mouse, is mirrored to the players look movement.
 
 ### That's it for the coding, now we save the script (Control + S) and go back into our Unity scene with our player.
+
+7. Right click on the hierarchy and create an Empty object, calling it GroundCheck. Now we make sure that the local Positions for this empty gameobject to be 0, -1, 0 (XYZ order), which places it at the bottom of the player.
+
+8. Now we select our Player, and on the right, add in the PlayerMovement C# component onto the player.
+
+![image](https://github.com/user-attachments/assets/b5fd68cc-b25b-47cd-96b8-b9485d2c5fa5)
+
