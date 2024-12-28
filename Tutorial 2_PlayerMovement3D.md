@@ -32,3 +32,11 @@ These are the variables we're going to be using for our player movement. Firstly
 For our private variables: moveDirection is about the player's movement direction (including gravity and jumping). rotationX is about tracking the camera's vertical rotation (looking up and down). characterController is a reference to Unity's character controller component which is used for player movement And last, canMove is a flag to toggle whether if the player is allowed to move or not.
 
 6. We now begin coding the other parts of the script. We're going to lock and hide the cursor in our void start placement which locks the cursor to the centre of the screen for first person movement, as well as reference our character controller component. 
+```.cs
+void Start()
+{
+    characterController = GetComponent<CharacterController>();
+    Cursor.lockState = CursorLockMode.Locked;
+    Cursor.visible = false;
+}
+```
