@@ -1,4 +1,4 @@
-# Player Movement 3D Unity Tutorial
+# Player Movement 3D Unity (First Person) Tutorial
 ## In this tutorial, we will be showing how Player Movement is done in a 3d environment in Unity
 
 ### Firstly, you want create or open up a scene in Unity 3D.
@@ -98,3 +98,4 @@ Camera/Look Movement: Mouse input is what's used to control the camera's rotatio
 
 ![image](https://github.com/user-attachments/assets/b5fd68cc-b25b-47cd-96b8-b9485d2c5fa5)
 
+I added in the camera into the camera variable (from first tutorial) and then set the values of the other variables to my liking.
