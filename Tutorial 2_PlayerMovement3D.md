@@ -98,7 +98,7 @@ Camera/Look Movement: Mouse input is what's used to control the camera's rotatio
 
 ![image](https://github.com/user-attachments/assets/b5fd68cc-b25b-47cd-96b8-b9485d2c5fa5)
 
-I added in the camera into the camera variable (from first tutorial) and then set the values of the other variables to my liking.
+I added in the camera into the camera variable (from first tutorial) and then set the values of the other variables to my liking. This is how it should look in the end.
 
 
 
