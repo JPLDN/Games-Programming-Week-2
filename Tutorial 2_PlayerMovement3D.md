@@ -4,4 +4,5 @@
 ### Firstly, you want create or open up a scene in Unity 3D.
 
 1. For my tutorial, I simply used a Capsule as a temporary object to be used as my player, so I created it by going to GameObject at the top of Unity -> 3D Object and selected Capsule.
-2. 
+2. If you haven't already, create a scripts folder by clicking your assets folder in Unity, right click and select Create -> Folder and call it Scripts.
+3. Now create a script by right clicking in the Scripts folder, click "create" then select Create "C# script".
