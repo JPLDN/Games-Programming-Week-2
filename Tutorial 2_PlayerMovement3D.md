@@ -85,4 +85,5 @@ void Start()
     }
 }
 ```
-
+Explanation: 
+Firstly we'll talk about the movement aspect of the script. Our Forward/Right movement is based on the player's input, specifically the horizonal and vertical axes. It checks if the player is running (holding shift), adjusting the speed accordingly. If the player presses jump (spacebar), and the character is grounded, the y component of moveDirection is set to jumpPower, making the player jump.
