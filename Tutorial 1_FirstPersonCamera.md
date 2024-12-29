@@ -75,5 +75,9 @@ This will help to hide the cursor and lock it so that when you click play and ju
 This is how it should look and function in the end.
 
 
-https://github.com/user-attachments/assets/fbafd025-5b44-4d84-8e9e-9bab48993826
+
+
+https://github.com/user-attachments/assets/d5ebcd2f-ad87-4159-abf6-6e45ad83480b
+
+
 
