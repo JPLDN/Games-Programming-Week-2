@@ -10,3 +10,5 @@
 Lastly, for Selected Colour, you adjust RGB colours to your liking and then set section A to 255. 
 
 ![image](https://github.com/user-attachments/assets/61264aea-fad6-4ab4-bb9f-27a0f3c838d7)
+
+This is what it should look like once you're finished with the button.
