@@ -12,3 +12,5 @@ Lastly, for Selected Colour, you adjust RGB colours to your liking and then set 
 ![image](https://github.com/user-attachments/assets/61264aea-fad6-4ab4-bb9f-27a0f3c838d7)
 
 This is what it should look like once you're finished with the button.
+
+4. Next on the Text object, which should be inside the button on the hierachy, change the text to "Play" and underneath it somewhere, select "Enable Auto Sizing" then change the colour (towards the top of the textMeshPro component) to white.
