@@ -14,3 +14,7 @@ Lastly, for Selected Colour, you adjust RGB colours to your liking and then set 
 This is what it should look like once you're finished with the button.
 
 4. Next on the Text object, which should be inside the button on the hierachy, change the text to "Play" and underneath it somewhere, select "Enable Auto Sizing" then change the colour (towards the top of the textMeshPro component) to white.
+5. Re-name the Button on the hierachy to PlayButton, then duplicate this object twice and re-name the 2 buttons to OptionsButton and QuitButton.
+
+![image](https://github.com/user-attachments/assets/286a7fbf-1c0d-4e4b-b3c7-0059a7c43b31)
+
