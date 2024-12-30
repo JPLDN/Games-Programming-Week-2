@@ -18,3 +18,10 @@ This is what it should look like once you're finished with the button.
 
 ![image](https://github.com/user-attachments/assets/286a7fbf-1c0d-4e4b-b3c7-0059a7c43b31)
 
+6. Create an Empty game object in the hierarchy, right click it and select create empty, re-name this empty object to MainMenu, then select the 3 objects and drop onto the Main Menu so that the 3 buttons become a children object to MainMenu, which becomes a parent. 
+
+![image](https://github.com/user-attachments/assets/8809a78f-2adb-43d5-814f-3dbcfa3280da)
+
+It should look like this.
+
+
