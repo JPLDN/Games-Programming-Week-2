@@ -31,3 +31,11 @@ It should look like this.
 9. Now select the MainMenu object, and duplicate it by pressing control + D, change the name to SettingsMenu, then delete Play and Options button for SettingsMenu, then change the name of the Quit button, to BackButton.
 10. On the Options Button, the first On-Click Method, it should be displayed as "Editor and Runtime" with GameObject.SetActive as its function above the MainMenu box with an unchecked box. Then for the 2nd on-click method of the Options Button, Drag in the SettingsMenu object and place it into the box, have it on Runtime Only with GameObject.SetActive with a tick in the check box.
 11. For the BackButton, the first on-click method should be on Editor and Runtime, with an unchecked box for GameObject.SetActive with SettingsMenu in the box. And for the second on-click method, it should be on Runtime Only with a ticked GameObject.SetActive box, with MainMenu in its box.
+
+## Now to make it so the Play Button actually loads a scene in.
+
+12. If you have a scene, use that, if not then create a scene. In the top left of Unity, click file then towards the bottom, click Build Settings.
+13. Drag the MainMenu scene into the build settings first, then drag in the 2nd scene into the build settings.
+
+![image](https://github.com/user-attachments/assets/2c5edcff-e4e5-4208-be8e-8c06b6d3d21a)
+
