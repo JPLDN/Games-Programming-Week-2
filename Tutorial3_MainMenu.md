@@ -26,4 +26,6 @@ This is what it should look like once you're finished with the button.
 It should look like this.
 
 
-
+7. Next, we're now going to these buttons have a function when clicked on. Select all 3 button objects, then on the right side, in the button component, add in an "On-click" method and drag in the MainMenu object and place it into the box, where it says "No Function", select that then click MainMenu then clcik Play Game ().
+8. Select on the Quit button, and create an on-click method, then on the "No Functions" tab, click it then select MainMenu then click Quit Game ().
+9. Now select the MainMenu object, and duplicate it by pressing control + D, change the name to SettingsMenu, then delete Play and Options button for SettingsMenu, then change the name of the Quit button, to BackButton
