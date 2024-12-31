@@ -39,3 +39,31 @@ It should look like this.
 
 ![image](https://github.com/user-attachments/assets/2c5edcff-e4e5-4208-be8e-8c06b6d3d21a)
 
+14. Next, we go into our scripts folder and creat a new script, right click in the scripts folder, create then select C# Script and name it MainMenu.
+15. Open the MainMenu script, then delete all the void Update and void Start statements.
+
+```.cs
+public class MainMenu : MonoBehaviour
+{
+    public void PlayGame()
+    {
+        SceneManager.LoadScene("GamePrototype");
+    }
+
+    public void GoToSettingsMenu()
+    {
+        SceneManager.LoadScene("SettingsMenu");
+    }
+
+    public void GoToMainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
+}
+```
