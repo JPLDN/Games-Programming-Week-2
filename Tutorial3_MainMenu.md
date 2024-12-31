@@ -71,3 +71,7 @@ public class MainMenu : MonoBehaviour
 This essentially allows us to do what it's supposed to, the LoadScene("GamePrototype"); part is my second scene which I want to be loaded after I click the Play button in the main menu. The "SettingsMenu" will direct you to the settings menu itself, but in this tutorial we don't have one so it won't load anything besides the Back Button. MainMenu is to simply load the MainMenu scene and lastly the Application.Quit is to simply quit the application, although in this case it doesn't actually do anything.
 
 16. Lastly, on the SettingsMenu object, uncheck the tickbox at the top right so it hides the BackButton, and when you click the Options Button, the BackButton re-appears.
+
+
+https://github.com/user-attachments/assets/14f65ffe-c479-4749-abdb-50a2e7025c1f
+
