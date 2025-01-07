@@ -43,6 +43,15 @@ if (healthSlider.value != health)
 
 This is a condition where it checks if the slider value is not equal to the health value, and if it isn't, it will modify the slider value to be equal to the health value.
 
-14. Back in Unity, create another empty object, then make sure the Health Bar is a child of the empty object. Name this Empty Object anything you like, I named it mainHealthBar. Add in the Health script into the mainHealthBar object and since we have a public slider variable, we click and drag the Health Bar object into the slider variable of the script.
+14. Back in Unity, create another empty object, then make sure the Health Bar is a child of the empty object. Name this Empty Object anything you like, I named it mainHealthBar. Add in the Health script into the mainHealthBar object and since we have a public slider variable, we click and drag the Health Bar object into the slider variable of the script. Make sure mainHealthBar is a parent object to both the Health Bar and Ease Health Bar.
 
 15. Next, we now click on the Health Bar Object and duplicate it, calling it Ease Health Bar. Then selecting Health Bar, we'll delete the Background object, and for Ease Health Bar, we'll chosoe the Fill Object and change the colour to yellow (I chose Yellow, you can choose another as long as it's not the same as the first 2 colours we put initially).
+
+16. Back in the Health Script, we're going to modify it and add more into it, for the Ease Health Bar. We're going to add to the variables, so here's what your varirables should look like after adding the new variables.
+```.cs
+    public Slider healthSlider;
+    public Slider easeHealthSlider;
+    public float maxHealth = 100f;
+    public float health;
+    private float lerpSpeed = 0.0095f;
+```
