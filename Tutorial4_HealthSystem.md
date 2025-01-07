@@ -12,3 +12,5 @@
 
 ![image](https://github.com/user-attachments/assets/3f28e73e-a873-4ed7-bba4-e8d2e455a517)
 
+6. Then on the image component of the background object, we're going to change the colour, I chose a dark red colour for mine.
+7. Next, we're going to make another UI image, so again, right click the hierarchy -> UI -> Image and name this Fill. Make sure this UI Image is above background but is still a child to the Health Bar object on the hierarchy.
