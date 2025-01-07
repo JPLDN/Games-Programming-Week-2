@@ -20,3 +20,4 @@
 
 ![image](https://github.com/user-attachments/assets/c1b25812-6827-41b8-ba66-a16d67ce6bec)
 
+11. Next, on the Health Bar object, add a "Slider" Component 
