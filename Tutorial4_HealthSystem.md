@@ -42,3 +42,5 @@ if (healthSlider.value != health)
 ```
 
 This is a condition where it checks if the slider value is not equal to the health value, and if it isn't, it will modify the slider value to be equal to the health value.
+
+14. Back in Unity, create another empty object, then make sure the Health Bar is a child of the empty object. Name this Empty Object anything you like, I named it mainHealthBar. Add in the Health script into the mainHealthBar object and since we have a public slider variable, we click and drag the Health Bar object into the slider variable of the script.
