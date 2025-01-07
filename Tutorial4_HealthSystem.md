@@ -65,3 +65,11 @@ if (healthSlider.value != easeHealthSlider.value)
 ```
 
 What this does, is that it creates the delay in HP loss when taking damage. My brighter red bar (Health Bar) will decrease first, with the yellow health bar (Ease Health Bar) being shortly after, this is what makes the health system function like dark souls since theirs has the same mechanic.
+
+17. Now back into Unity, select mainHealthBar and add in the Ease Health Slider object to the Ease Health Bar variable in the script component that is inside the mainHealthBar object. Make sure that Ease Health Bar is above Health Bar so that the main brighter red displayer on top of both the yellow and the darker red HP bars. 
+
+![image](https://github.com/user-attachments/assets/a77940e8-3122-4097-9bd4-e0946c73f03a)
+
+And yout script component should look like this:
+
+![image](https://github.com/user-attachments/assets/906f4ac9-7c35-461a-9b09-e545ad9f0deb)
