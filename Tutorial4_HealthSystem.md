@@ -32,3 +32,13 @@ public float health;
 ```
 
 And in void Start (), add in "health = maxHealth;
+
+13. In void Update (), type in:
+
+```.cs
+if (healthSlider.value != health)
+{
+    healthSlider.value = health;
+```
+
+This is a condition where it checks if the slider value is not equal to the health value, and if it isn't, it will modify the slider value to be equal to the health value.
