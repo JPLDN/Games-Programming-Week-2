@@ -8,4 +8,7 @@
 ![image](https://github.com/user-attachments/assets/35cf82a1-b575-4482-a8b5-29ede84bb9f6)
 
 4. You then modify its scale and re-size it and re-shape it to how you'd like, then select Health Bar in the hierachy, right click, hover over UI and click image and re-name this to Background.
-5. 
+5. Then, on the right you want to adjust the anchor presets by click on the stretch anchor button then hold the alt key and select the anchor on the bottom right.
+
+![image](https://github.com/user-attachments/assets/3f28e73e-a873-4ed7-bba4-e8d2e455a517)
+
