@@ -30,3 +30,5 @@ public slider healthSlider;
 public float maxHealth = 100f;
 public float health;
 ```
+
+And in void Start (), add in "health = maxHealth;
