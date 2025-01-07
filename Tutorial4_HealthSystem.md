@@ -15,3 +15,4 @@
 6. Then on the image component of the background object, we're going to change the colour, I chose a dark red colour for mine.
 7. Next, we're going to make another UI image, so again, right click the hierarchy -> UI -> Image and name this Fill. Make sure this UI Image is above background but is still a child to the Health Bar object on the hierarchy.
 8. Just like for the background, adjust the anchor preset to the same exact anchor as the one we done for Background, remember to hold the Alt key and select the Anchor on the bottom right (refer to the screenshot above)
+9. In the Image Component for the Fill object, select a brighter colour than the one you chose for Background, I chose to do a brighter red this time.
