@@ -63,3 +63,5 @@ if (healthSlider.value != easeHealthSlider.value)
     easeHealthSlider.value = Mathf.Lerp(easeHealthSlider.value, health, lerpSpeed);
 }
 ```
+
+What this does, is that it creates the delay in HP loss when taking damage. My brighter red bar (Health Bar) will decrease first, with the yellow health bar (Ease Health Bar) being shortly after, this is what makes the health system function like dark souls since theirs has the same mechanic.
