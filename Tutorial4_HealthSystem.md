@@ -21,3 +21,5 @@
 ![image](https://github.com/user-attachments/assets/c1b25812-6827-41b8-ba66-a16d67ce6bec)
 
 11. Next, on the Health Bar object, add a "Slider" Component, then click and drag the Fill Object and place it in the "Fill Rect" section of the Slider component. Then below it, you'll see a slider "value" move that back and forth to test if it is working, you should see that the lighter colour increase and decreases with the darker colour still not moving behind the lighter colour.
+
+### Now onto the code for the health system
