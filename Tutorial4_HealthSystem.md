@@ -3,7 +3,7 @@
 
 1. Create a new scene in Unity, or if you already have a scene, open that up. 
 2. Right click the hierarchy, hover over UI, and select Canvas.
-3. Select 2D at the top of your scene to get a better view of the canvas, then click Canvas in the hierachy, right click then create empty object and name it HealthBar.
+3. Select 2D at the top of your scene to get a better view of the canvas, then click Canvas in the hierachy, right click then create empty object and name it Health Bar.
 
 ![image](https://github.com/user-attachments/assets/35cf82a1-b575-4482-a8b5-29ede84bb9f6)
 
