@@ -73,3 +73,20 @@ What this does, is that it creates the delay in HP loss when taking damage. My b
 And yout script component should look like this:
 
 ![image](https://github.com/user-attachments/assets/906f4ac9-7c35-461a-9b09-e545ad9f0deb)
+
+### Once that is all complete, it's time to test
+
+I added in this line of script in the health script, inside the void Update () statement:
+```.cs
+if (Input.GetKeyDown(KeyCode.Space))
+{
+    takeDamage(10);
+}
+```
+
+And now this is what the health bar looks like when taking damage. 
+
+
+https://github.com/user-attachments/assets/7d1a378c-2c72-486d-aa36-30fce0210450
+
+
