@@ -55,3 +55,11 @@ This is a condition where it checks if the slider value is not equal to the heal
     public float health;
     private float lerpSpeed = 0.0095f;
 ```
+
+Then, in the void Update() statement, add in this line of code:
+```.cs
+if (healthSlider.value != easeHealthSlider.value)
+{
+    easeHealthSlider.value = Mathf.Lerp(easeHealthSlider.value, health, lerpSpeed);
+}
+```
