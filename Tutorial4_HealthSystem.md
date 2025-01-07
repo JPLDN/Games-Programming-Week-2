@@ -16,4 +16,7 @@
 7. Next, we're going to make another UI image, so again, right click the hierarchy -> UI -> Image and name this Fill. Make sure this UI Image is above background but is still a child to the Health Bar object on the hierarchy.
 8. Just like for the background, adjust the anchor preset to the same exact anchor as the one we done for Background, remember to hold the Alt key and select the stretch/stretch anchor (refer to the screenshot above)
 9. In the Image Component for the Fill object, select a brighter colour than the one you chose for Background, I chose to do a brighter red this time.
-10. Now select on the Health Bar game object in the hierachy, and we're going to adjust the positioning of the health bar, once again we're going to adjust the anchor preset but instead of selecting the stretch/stretch anchor, we'll be selecting the top left anchor for the health bar.
+10. Now select on the Health Bar game object in the hierachy, and we're going to adjust the positioning of the health bar, once again we're going to adjust the anchor preset but instead of selecting the stretch/stretch anchor, we'll be selecting the top left anchor for the health bar. Now it'll go directly to the top left, so moving it downwards and moving it outwards will make it appear better. 
+
+![image](https://github.com/user-attachments/assets/c1b25812-6827-41b8-ba66-a16d67ce6bec)
+
