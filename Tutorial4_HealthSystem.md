@@ -23,3 +23,5 @@
 11. Next, on the Health Bar object, add a "Slider" Component, then click and drag the Fill Object and place it in the "Fill Rect" section of the Slider component. Then below it, you'll see a slider "value" move that back and forth to test if it is working, you should see that the lighter colour increase and decreases with the darker colour still not moving behind the lighter colour.
 
 ### Now onto the code for the health system
+
+12. Create a C# script in the scripts folder and name it Healthbar, and open up the script. At the very top, add in "using UnityEngine.UI;" 
