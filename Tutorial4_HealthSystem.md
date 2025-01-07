@@ -24,4 +24,9 @@
 
 ### Now onto the code for the health system
 
-12. Create a C# script in the scripts folder and name it Healthbar, and open up the script. At the very top, add in "using UnityEngine.UI;" 
+12. Create a C# script in the scripts folder and name it Health, and open up the script. At the very top, add in "using UnityEngine.UI;" and then we're going to add in the following variables:
+```.cs
+public slider healthSlider;
+public float maxHealth = 100f;
+public float health;
+```
