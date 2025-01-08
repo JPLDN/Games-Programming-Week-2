@@ -33,6 +33,11 @@ public class Health : MonoBehaviour
         }
 
         invulnerability -= Time.deltaTime;
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            takeDamage(10);
+        }
     }
 
     public void takeDamage(float damage)
