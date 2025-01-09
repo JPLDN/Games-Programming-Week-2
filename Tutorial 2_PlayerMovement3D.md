@@ -1,5 +1,7 @@
 # Player Movement 3D Unity (First Person) Tutorial
-## In this tutorial, we will be showing how Player Movement is done in a 3d environment in Unity. Note: This Movement Tutorial references the First Person Camera tutorial, so that tutorial should be done first before this movement is done.
+## In this tutorial, we will be showing how Player Movement is done in a 3d environment in Unity. 
+
+## Prerequisite: This tutorial requires a camera, so you must have a camera for this tutorial to work as this player movement directional controll is from the camera. It's advised that you already have a Camera system, preferably a first person camera, and if not, my first tutorial covers how to create a first person camera.
 
 ### Firstly, you want create or open up a scene in Unity 3D.
 
