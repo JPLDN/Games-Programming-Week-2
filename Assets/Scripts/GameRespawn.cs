@@ -12,6 +12,8 @@ public class GameRespawn : MonoBehaviour
         if (transform.position.y < threshold)
         {
             transform.position = new Vector3(0f, 1f, 0f);
+
+            Debug.Log("Respawn");
         }
     }
 }

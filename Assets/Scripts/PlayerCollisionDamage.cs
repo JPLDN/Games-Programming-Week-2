@@ -43,8 +43,6 @@ public class PlayerCollisionDamage : MonoBehaviour
         if (hit.collider.CompareTag("Spike"))
         {
             healthSystem.takeDamage(collisionDamage);
-
-
         }
     }
 }
